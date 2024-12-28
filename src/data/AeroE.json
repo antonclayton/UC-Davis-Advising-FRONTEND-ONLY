@@ -1,0 +1,317 @@
+[
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021A - Calculus (4)",
+    "prerequisites": "NONE",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021B - Calculus (4)",
+    "prerequisites": "MAT 021A",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021C - Calculus (4)",
+    "prerequisites": "MAT 021B",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021D - Vector Analysis (4)",
+    "prerequisites": "MAT 021C",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 022A - Linear Algebra (3)",
+    "prerequisites": "MAT 021C,ENG 006",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 022B - Differential Equations (3)",
+    "prerequisites": "MAT 022A",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#592e9e",
+    "course": "CHE 002A - General Chemistry (5)",
+    "prerequisites": "NONE",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#592e9e",
+    "course": "CHE 002B - General Chemistry (5)",
+    "prerequisites": "CHE 002A",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009A - Classical Physics (5) (lab)",
+    "prerequisites": "MAT 021B",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009B - Classical Physics (5) (lab)",
+    "prerequisites": "PHY 009A,MAT 021D",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009C - Classical Physics (5) (lab)",
+    "prerequisites": "PHY 009B",
+    "year": "1/2"
+  },
+  {
+    "availability": "FQ or WQ",
+    "color": "#2e7c9e",
+    "course": "ENG 004 - Engineering Graphics in Design (3) (lab)",
+    "prerequisites": "NONE",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 006 - Engineering Problem Solving (4)",
+    "prerequisites": "MAT 021B",
+    "year": "1"
+  },
+  {
+    "availability": "FQ or WQ",
+    "color": "#2e7c9e",
+    "course": "ENG 017 - Circuits I (4)",
+    "prerequisites": "MAT 021C",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 035 - Statics (4)",
+    "prerequisites": "PHY 009A,MAT 021D",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 045 - Properties of Materials (4)",
+    "prerequisites": "MAT 021C,CHE 002B,PHY 009A",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 100 - Electronic Circuits and Systems (3)",
+    "prerequisites": "ENG 017",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 102 - Dynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 103 - Fluid Dynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B,PHY 009B",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 104 - Mechanics of Materials (4)",
+    "prerequisites": "ENG 035,MAT 022B,PHY 009B",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 105 - Thermodynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B",
+    "year": "3"
+  },
+  {
+    "availability": "-",
+    "color": "#d113ae",
+    "course": "Upper Division Standing - (0)",
+    "prerequisites": "NONE",
+    "year": "3"
+  },
+  {
+    "availability": "WQ or SQ",
+    "color": "#2e7c9e",
+    "course": "ENG 190 - Professional Responsibilities (3)",
+    "prerequisites": "Upper Division Standing",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 106 - Thermo-fluid Dynamics (4)",
+    "prerequisites": "ENG 103,ENG 105",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 108 - Measurement Systems (4)",
+    "prerequisites": "ENG 100,ENG 102",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 109 - Experimental Methods for Thermal Fluids (4)",
+    "prerequisites": "EME 106",
+    "year": "3"
+  },
+  {
+    "availability": "FQ OR SQ",
+    "color": "#d16813",
+    "course": "EME 165 - Fundamentals of Heat Transfer (4)",
+    "prerequisites": "ENG 006,ENG 103,ENG 105",
+    "year": "4"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 172 - Automatic Control of Engineering Systems (4)",
+    "prerequisites": "ENG 100,ENG 102",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#348c6c",
+    "course": "EAE 129 - Stability & Control of Aerospace Vehicles (4)",
+    "prerequisites": "ENG 102",
+    "year": "2"
+  },
+  {
+    "availability": "FQ",
+    "color": "#348c6c",
+    "course": "EAE 133 - Finite Element Methods in Structure (4)",
+    "prerequisites": "ENG 104",
+    "year": "3"
+  },
+  {
+    "availability": "WQ",
+    "color": "#348c6c",
+    "course": "EAE 135 - Aerospace Structures (4)",
+    "prerequisites": "ENG 104",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#348c6c",
+    "course": "EAE 138 - Aircraft Propulsion (4)",
+    "prerequisites": "EME 106",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "ECS 130 - Scientific Computation (4)",
+    "prerequisites": "MAT 022A,ENG 006",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR WQ",
+    "color": "#8f8c8c",
+    "course": "EME 115 - Intro to Numerical Analysis (4)",
+    "prerequisites": "ENG 006,MAT 021D,MAT 022B,PHY 009C",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "ENG 180 - Engineering Analysis (4)",
+    "prerequisites": "ENG 006,MAT 021D,MAT 022B",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR WQ",
+    "color": "#8f8c8c",
+    "course": "MAT 128A - Numerical Analysis (4)",
+    "prerequisites": "MAT 021C,ENG 006",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR SQ",
+    "color": "#8f8c8c",
+    "course": "MAT 128C - Numerical Analysis in Differential Equat (4)",
+    "prerequisites": "MAT 022B,ENG 006",
+    "year": "4"
+  },
+  {
+    "availability": "SQ",
+    "color": "#00fcec",
+    "course": "EAE 126 - Theoretical OR Computational Aerodynamics (4)",
+    "prerequisites": "ENG 103,ENG 105,ENG 180",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EAE 127 - Applied Aircraft Aerodynamics (4)",
+    "prerequisites": "EME 106",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EAE 140 - Rocket Propulsion (4)",
+    "prerequisites": "EME 106",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#8f8c8c",
+    "course": "EAE 142 - Orbital Mechanics (4)",
+    "prerequisites": "ENG 102",
+    "year": "3"
+  },
+  {
+    "availability": "WQ",
+    "color": "#8f8c8c",
+    "course": "EAE 143A - Space Vehicle Design (4)",
+    "prerequisites": "EAE 140,EAE 142",
+    "year": "4"
+  },
+  {
+    "availability": "SQ",
+    "color": "#8f8c8c",
+    "course": "EME 139* - Stability of Flexible Dynamic Systems (4) (lab)",
+    "prerequisites": "ENG 102,ENG 103",
+    "year": "4"
+  },
+  {
+    "availability": "WQ AND SQ",
+    "color": "#00fcec",
+    "course": "EAE 130A OR B - Aircraft Performance and Design",
+    "prerequisites": "EAE 127,EAE 129",
+    "year": "4"
+  },
+  {
+    "availability": "WQ AND SQ",
+    "color": "#8f8c8c",
+    "course": "EAE 143A OR B - Space Vehicle and Mission Design",
+    "prerequisites": "EAE 140,EAE 142",
+    "year": "4"
+  }
+]
