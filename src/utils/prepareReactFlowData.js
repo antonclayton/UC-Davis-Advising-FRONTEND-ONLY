@@ -74,6 +74,7 @@ export const prepareReactFlowData = (
       data: {
         label: `${course.courseCode} (${course.units} units)`,
         label2: `Availability: ${course.availability}`,
+        label3: `${course.subtext}`,
         color: `${course.color}`,
         id: course.courseCode,
         isCompleted,

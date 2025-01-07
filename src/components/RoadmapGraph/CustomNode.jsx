@@ -10,7 +10,8 @@ const CustomNode = ({ data }) => (
     <Handle type="target" position={Position.Left} id="left" />
     <div>
       <h6 style={{ color: `${data.color}` }}>{data.label}</h6>
-      <p>{data.label2}</p>
+      <p style={{ fontSize: "9px" }}>{data.label2}</p>
+      <p style={{ fontSize: "9px" }}>{data.label3}</p>
     </div>
     {data.isCompleted && <div className="text-xs">✓</div>}
     <Handle type="source" position={Position.Right} id="right" />

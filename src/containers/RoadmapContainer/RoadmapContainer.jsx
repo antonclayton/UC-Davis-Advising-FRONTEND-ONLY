@@ -6,8 +6,10 @@ import RoadmapGraph from "../../components/RoadmapGraph/RoadmapGraph";
 import { processCourseData } from "../../utils/courseData";
 
 // import course data
-import MechECourses from "../../data/MechE.json";
-import AeroECourses from "../../data/AeroE.json";
+// import MechECourses from "../../data/MechE.json";
+// import AeroECourses from "../../data/AeroE.json";
+import MechE2Courses from "../../data/MechE2.json";
+import AeroE2Courses from "../../data/AeroE2.json";
 
 const RoadmapContainer = ({ major }) => {
   const [courses, setCourses] = useState([]);
@@ -16,9 +18,9 @@ const RoadmapContainer = ({ major }) => {
   useEffect(() => {
     // Based on major, set the course data
     if (major === "Mechanical Engineering") {
-      setCourses(MechECourses);
+      setCourses(MechE2Courses);
     } else if (major === "Aerospace Engineering") {
-      setCourses(AeroECourses);
+      setCourses(AeroE2Courses);
     }
   }, [major]);
 

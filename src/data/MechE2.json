@@ -1,0 +1,426 @@
+[
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021A - Calculus (4)",
+    "prerequisites": "NONE",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021B - Calculus (4)",
+    "prerequisites": "MAT 021A",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021C - Calculus (4)",
+    "prerequisites": "MAT 021B",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 021D - Vector Analysis (4)",
+    "prerequisites": "MAT 021C",
+    "subtext": "required",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 022A - Linear Algebra (3)",
+    "prerequisites": "MAT 021C,ENG 006",
+    "subtext": "required",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#ff0000",
+    "course": "MAT 022B - Differential Equations (3)",
+    "prerequisites": "MAT 022A",
+    "subtext": "required",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#592e9e",
+    "course": "CHE 002A - General Chemistry (5)",
+    "prerequisites": "NONE",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#592e9e",
+    "course": "CHE 002B - General Chemistry (5)",
+    "prerequisites": "CHE 002A",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009A - Classical Physics (5) (lab)",
+    "prerequisites": "MAT 021B",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009B - Classical Physics (5) (lab)",
+    "prerequisites": "PHY 009A,MAT 021D",
+    "subtext": "required",
+    "year": "1/2"
+  },
+  {
+    "availability": "All",
+    "color": "#0000ff",
+    "course": "PHY 009C - Classical Physics (5) (lab)",
+    "prerequisites": "PHY 009B",
+    "subtext": "required",
+    "year": "1/2"
+  },
+  {
+    "availability": "FQ or WQ",
+    "color": "#2e7c9e",
+    "course": "ENG 004 - Engineering Graphics in Design (3) (lab)",
+    "prerequisites": "NONE",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 006 - Engineering Problem Solving (4)",
+    "prerequisites": "MAT 021B",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "FQ or WQ",
+    "color": "#d16813",
+    "course": "EME 050 - Manufacturing Processes (4)",
+    "prerequisites": "ENG 004,PHY 009A",
+    "subtext": "required",
+    "year": "1"
+  },
+  {
+    "availability": "FQ or WQ",
+    "color": "#2e7c9e",
+    "course": "ENG 017 - Circuits I (4)",
+    "prerequisites": "MAT 021C",
+    "subtext": "required",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 035 - Statics (4)",
+    "prerequisites": "PHY 009A,MAT 021D",
+    "subtext": "required",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 045 - Properties of Materials (4)",
+    "prerequisites": "MAT 021C,CHE 002B,PHY 009A",
+    "subtext": "required",
+    "year": "2"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 100 - Electronic Circuits and Systems (3)",
+    "prerequisites": "ENG 017",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 102 - Dynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 103 - Fluid Dynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B,PHY 009B",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 104 - Mechanics of Materials (4)",
+    "prerequisites": "ENG 035,MAT 022B,PHY 009B",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#2e7c9e",
+    "course": "ENG 105 - Thermodynamics (4)",
+    "prerequisites": "ENG 035,MAT 022B",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "-",
+    "color": "#d113ae",
+    "course": "Upper Division Standing - (0)",
+    "prerequisites": "NONE",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "WQ or SQ",
+    "color": "#2e7c9e",
+    "course": "ENG 190 - Professional Responsibilities (3)",
+    "prerequisites": "Upper Division Standing",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 106 - Thermo-fluid Dynamics (4)",
+    "prerequisites": "ENG 103,ENG 105",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 108 - Measurement Systems (4)",
+    "prerequisites": "ENG 100,ENG 102",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 109 - Experimental Methods for Thermal Fluids (4)",
+    "prerequisites": "EME 106",
+    "subtext": "required",
+    "year": "3"
+  },
+  {
+    "availability": "FQ OR SQ",
+    "color": "#d16813",
+    "course": "EME 165 - Fundamentals of Heat Transfer (4)",
+    "prerequisites": "ENG 006,ENG 103,ENG 105",
+    "subtext": "required",
+    "year": "4"
+  },
+  {
+    "availability": "All",
+    "color": "#d16813",
+    "course": "EME 172 - Automatic Control of Engineering Systems (4)",
+    "prerequisites": "ENG 100,ENG 102",
+    "subtext": "required",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR SQ",
+    "color": "#d16813",
+    "course": "EME 150A - Mechanical Design (4)",
+    "prerequisites": "ENG 045,ENG 104,EME 050",
+    "subtext": "required",
+    "year": "4"
+  },
+  {
+    "availability": "WQ AND SQ",
+    "color": "#d16813",
+    "course": "EME 185A/B - Mechanical Systems Design Project (4)",
+    "prerequisites": "EME 050,EME 150A,EME 165",
+    "subtext": "required",
+    "year": "4"
+  },
+  {
+    "availability": "?",
+    "color": "#8f8c8c",
+    "course": "EME 121 - Eng Appl of Dynamics (4)",
+    "prerequisites": "ENG 006,ENG 102",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "4"
+  },
+  {
+    "availability": "SQ",
+    "color": "#8f8c8c",
+    "course": "EME 139 - Stab of Flexible Dyn Sys (4)",
+    "prerequisites": "ENG 102,ENG 103",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "3"
+  },
+  {
+    "availability": "SQ",
+    "color": "#8f8c8c",
+    "course": "EME 150B - Mechanical Design (4)",
+    "prerequisites": "EME 150A",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#8f8c8c",
+    "course": "EME 154 - Mechatronics (4)",
+    "prerequisites": "ENG 100,ENG 102,EME 050",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EME 171 - Sim & Des Mech Sys (4)",
+    "prerequisites": "ENG 100,ENG 102",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#8f8c8c",
+    "course": "ENG 122 - Intro to Mech Vibrations (4)",
+    "prerequisites": "ENG 006,ENG 102",
+    "subtext": "sys el (1) OR res el (2)",
+    "year": "4"
+  },
+  {
+    "availability": "SQ",
+    "color": "#8f8c8c",
+    "course": "EME 134 - Vehicle Stability (4)",
+    "prerequisites": "ENG 102",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "?",
+    "color": "#8f8c8c",
+    "course": "EME 161 - Combustion & the Envir (4)",
+    "prerequisites": "EME 106",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EME 163 - Internal Combustion Engines (4)",
+    "prerequisites": "EME 106,EME 050",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "WQ",
+    "color": "#8f8c8c",
+    "course": "EME 164 - Intro to HVAC (4)",
+    "prerequisites": "EME 106,EME 165",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EMS 180 - Materials Engin Design (4)",
+    "prerequisites": "ENG 045",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "EMS 182 - Failure Analysis (4)",
+    "prerequisites": "ENG 045",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "SQ",
+    "color": "#8f8c8c",
+    "course": "ENG 188 - Sci & Tech Sustain Pwr (4)",
+    "prerequisites": "PHY 009C",
+    "subtext": "res el (pick 2)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "ECH 140 - Math Methods. Bio OR Chem ENG (4)",
+    "prerequisites": "MAT 022B,ENG 006",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "All",
+    "color": "#8f8c8c",
+    "course": "ECI 114 - Probability Systems Analysis",
+    "prerequisites": "MAT 021C",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "ECS 130 - Scientific Computation (4)",
+    "prerequisites": "MAT 022A,ENG 006",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR WQ",
+    "color": "#8f8c8c",
+    "course": "EME 115 - Intro to Numerical Analysis (4)",
+    "prerequisites": "ENG 006,MAT 021D,MAT 022B,PHY 009C",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "ENG 180 - Engineering Analysis (4)",
+    "prerequisites": "ENG 006,MAT 021D,MAT 022B",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ",
+    "color": "#8f8c8c",
+    "course": "MAT 118A - Partial Diff Equations (4)",
+    "prerequisites": "MAT 021D,MAT 022B",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR WQ",
+    "color": "#8f8c8c",
+    "course": "MAT 128A - Numerical Analysis (4)",
+    "prerequisites": "MAT 021C,ENG 006",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "FQ OR WQ",
+    "color": "#8f8c8c",
+    "course": "MAT 128B - Numerical Analysis Eq of Sol (4)",
+    "prerequisites": "MAT 022A,ENG 006",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  },
+  {
+    "availability": "All",
+    "color": "#8f8c8c",
+    "course": "STA 131A - Intro to Probability Theory (4)",
+    "prerequisites": "MAT 021C,MAT 022A",
+    "subtext": "math el (pick 1)",
+    "year": "4"
+  }
+]
