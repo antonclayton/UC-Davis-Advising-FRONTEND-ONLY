@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "./components/Header/Header";
 import MainContainer from "./containers/MainContainer";
@@ -9,6 +10,7 @@ function App() {
     <div className="flex justify-center items-center flex-col w-full">
       <Header />
       <MainContainer />
+      <Analytics />
     </div>
   );
 }
