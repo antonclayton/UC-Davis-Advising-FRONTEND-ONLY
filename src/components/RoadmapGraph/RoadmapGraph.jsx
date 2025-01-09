@@ -2,7 +2,6 @@ import React from "react";
 import ReactFlow, { Background, Controls } from "reactflow";
 import { useState } from "react";
 import "reactflow/dist/style.css";
-
 import { topologicalSort } from "../../utils/topologicalSort";
 import { prepareReactFlowData } from "../../utils/prepareReactFlowData";
 import CustomNode from "./CustomNode";
@@ -22,13 +21,11 @@ const RoadmapGraph = ({ courses }) => {
   };
 
   const handleNodeClick = (courseCode) => {
-    if (!canCompleteCourse(courseCode)) return; // do nothing if course cannot be completed at this time
-
+    if (!canCompleteCourse(courseCode)) return;
     setCompletedCourses((prev) => {
       const newCompleted = new Set(prev);
       if (newCompleted.has(courseCode)) {
         newCompleted.delete(courseCode);
-
         courses.forEach((course) => {
           if (course.prerequisites.includes(courseCode)) {
             newCompleted.delete(course.courseCode);
@@ -46,20 +43,17 @@ const RoadmapGraph = ({ courses }) => {
     completedCourses.forEach((courseCode) => {
       const course = courses.find((c) => c.courseCode === courseCode);
       if (course) {
-        totalUnits += course.units; // Sum the units of completed courses
+        totalUnits += course.units;
       }
     });
     return totalUnits;
   };
 
   try {
-    // const sortedCourses = topologicalSort(courses);
-    // console.log("Topologically sorted courses:", sortedCourses);
-
     const { nodes, edges } = prepareReactFlowData(
       courses,
       completedCourses,
-      canCompleteCourse //passing function
+      canCompleteCourse
     );
 
     const nodesWithHandlers = nodes.map((node) => ({
@@ -70,7 +64,13 @@ const RoadmapGraph = ({ courses }) => {
       },
     }));
 
-    const totalCompletedUnits = calculateCompletedUnits(); // Calculate completed units
+    const totalCompletedUnits = calculateCompletedUnits();
+
+    // const initialViewport = {
+    //   x: 200,
+    //   y: 20,
+    //   zoom: 0.3,
+    // };
 
     return (
       <div style={{ height: "70vh", width: "100%", overflow: "auto" }}>
@@ -83,6 +83,10 @@ const RoadmapGraph = ({ courses }) => {
           edges={edges}
           nodeTypes={nodeTypes}
           style={{ stroke: "black" }}
+          // defaultViewport={initialViewport}
+          zoomOnScroll={true}
+          minZoom={0.22}
+          maxZoom={1}
           fitView
         >
           <Background />
